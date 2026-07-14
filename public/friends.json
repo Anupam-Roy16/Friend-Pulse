@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "name": "Tanvir Rahman",
+    "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80",
+    "email": "tanvir.rahman@example.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": [
+      "Bootcamp",
+      "Next.js",
+      "Close Friend"
+    ],
+    "bio": "Met during the Programming Hero Web Development Bootcamp. We used to pair program on Next.js assignments late at night.",
+    "goal": 14,
+    "next_due_date": "2026-06-28"
+  },
+  {
+    "id": 2,
+    "name": "Sadia Islam",
+    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80",
+    "email": "sadia.islam@example.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": [
+      "University",
+      "Competitive Programming"
+    ],
+    "bio": "Co-competitor in the SRBD Code Contest. Always shares great resources on complex Data Structures and Algorithms.",
+    "goal": 15,
+    "next_due_date": "2026-07-12"
+  },
+  {
+    "id": 3,
+    "name": "Arif Ahmed",
+    "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80",
+    "email": "arif.ahmed@example.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": [
+      "GitHub Collab",
+      "TypeScript"
+    ],
+    "bio": "Collaborated on the SQ_Management repository. Great with TypeScript OOP concepts and automated text classification workflows.",
+    "goal": 30,
+    "next_due_date": "2026-08-05"
+  },
+  {
+    "id": 4,
+    "name": "Nabila Zaman",
+    "picture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&h=150&q=80",
+    "email": "nabila.zaman@example.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": [
+      "Community Project",
+      "Translation"
+    ],
+    "bio": "Worked together on the community database project. She handled the graphics while I supported translation and transcription.",
+    "goal": 30,
+    "next_due_date": "2026-06-24"
+  },
+  {
+    "id": 5,
+    "name": "Zeeshan Khan",
+    "picture": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=150&h=150&q=80",
+    "email": "zeeshan.khan@example.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": [
+      "Tech Tutoring",
+      "Python"
+    ],
+    "bio": "Met on TeacherOn while organizing Python and DSA student sessions. Passionate about automated testing bots.",
+    "goal": 21,
+    "next_due_date": "2026-07-24"
+  },
+  {
+    "id": 6,
+    "name": "Mehedi Hasan",
+    "picture": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=150&h=150&q=80",
+    "email": "mehedi.hasan@example.com",
+    "days_since_contact": 6,
+    "status": "almost due",
+    "tags": [
+      "Cooking Service Project",
+      "Spreadsheet Crew"
+    ],
+    "bio": "Partner in tracking the regional cooking service project using shared digital spreadsheets. Loves reviewing UI implementations.",
+    "goal": 7,
+    "next_due_date": "2026-07-10"
+  },
+  {
+    "id": 7,
+    "name": "Sajid Chowdhury",
+    "picture": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=150&h=150&q=80",
+    "email": "sajid.c@example.com",
+    "days_since_contact": 1,
+    "status": "on-track",
+    "tags": [
+      "AI Chat Explorers",
+      "HackerRank"
+    ],
+    "bio": "Enthusiastic about Claude.ai and Perplexity Pro workflows. We constantly practice coding challenges on HackerRank.",
+    "goal": 14,
+    "next_due_date": "2026-07-22"
+  },
+  {
+    "id": 8,
+    "name": "Riya Mazumder",
+    "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&h=150&q=80",
+    "email": "riya.m@example.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": [
+      "Job Placement",
+      "ATS Resume Group"
+    ],
+    "bio": "Met in the ATS-Friendly resume building and placement preparation workshop. Frequently reviews portfolio designs.",
+    "goal": 10,
+    "next_due_date": "2026-06-29"
+  }
+]

@@ -1,0 +1,37 @@
+// import React from 'react';
+import { FaYoutube } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+const Footer = () => {
+  return (
+    <div className="bg-[#244D3F] text-white text-center">
+      <p className="font-semibold text-6xl mt-10 mb-5">Keenkeeper</p>
+      <p className="opacity-75 text-sm">
+        Your personal shelf of meaningful connections. Browse, tend, and nurture
+        the relationships that matter most.
+      </p>
+      <p className="font-medium mb-5 text-xl mt-6">Social Links</p>
+      <div className="flex gap-4 justify-center">
+        <div className="bg-slate-900 h-10 w-10 rounded-full flex items-center justify-center ">
+          <FaYoutube />
+        </div>
+        <div className="bg-slate-900 h-10 w-10 rounded-full flex items-center justify-center ">
+          <FaSquareXTwitter />
+        </div>
+        <div className="bg-slate-900 h-10 w-10 rounded-full flex items-center justify-center ">
+          <FaFacebook />
+        </div>
+      </div>
+      <div className="flex justify-between pb-10 ml-20 mr-20 mt-5 opacity-60" >
+        <p>© 2026 KeenKeeper. All rights reserved.</p>
+        <div className="flex gap-4">
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+            <p>Cookie Policy</p>
+        </div>
+        </div>
+    </div>
+  );
+};
+
+export default Footer;
