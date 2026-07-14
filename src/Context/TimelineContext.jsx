@@ -26,17 +26,17 @@ export function TimelineProvider({ children }) {
     };
     addTimelineListToLocalDB(dataToSend); // লোকাল স্টোরেজে ডাটা সেভ হলো
     setTimelineData([...timelineData, dataToSend]); // কনটেক্সটে ডাটা সেভ হলো
-   toast.success('Data added successfully', {
-position: "top-right",
-autoClose: 500,
-hideProgressBar: false,
-closeOnClick: false,
-pauseOnHover: true,
-draggable: true,
-progress: undefined,
-theme: "light",
-// transition: Bounce,
-});
+    toast.success("Data added successfully", {
+      position: "top-right",
+      autoClose: 500,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      // transition: Bounce,
+    });
   };
   // এখানে আপনার শেয়ার্ড ডাটা থাকবে
   const data = { timelineData, setTimelineData, handleSendData };
