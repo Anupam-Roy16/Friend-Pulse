@@ -6,7 +6,7 @@ import Link from "next/link";
 const Friend_card = ({ friend }) => {
   return (
     <Link href={`/friend/${friend.id}`} className="block h-full">
-      <div className="h-full p-4 flex flex-col items-center bg-base-100 shadow-xl rounded-lg">
+      <div className="h-full flex flex-col items-center bg-base-100 shadow-xl rounded-lg  p-4">
         <Image
           src={friend.picture}
           alt="Picture of the author"
@@ -21,7 +21,7 @@ const Friend_card = ({ friend }) => {
 
         <div className="flex flex-wrap gap-2 justify-center mt-2">
           {friend.tags.map((tag) => (
-            <div key={tag} className="badge badge-soft badge-primary px-2 py-1">
+            <div key={tag} className="text-center badge badge-soft badge-primary">
               {tag}
             </div>
           ))}

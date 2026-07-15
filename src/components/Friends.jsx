@@ -4,9 +4,9 @@ import friends from "@/../public/friends.json";
 import Friend_card from "@/components/Friend_card";
 
 const Frinds_Section = () => {
-  console.log("Anupam", friends);
+  // console.log("Anupam", friends);
   return (
-    <div className="grid grid-cols-4 gap-8 ml-20 mr-20 mt-10 pb-15 items-stretch">
+    <div className="grid grid-cols-1 min-[627px]:grid-cols-2 min-[865px]:grid-cols-3 min-[1150px]:grid-cols-4 gap-8 ml-20 mr-20 mt-10 pb-15 items-stretch">
       {friends.map((friend) => (
         <Friend_card key={friend.id} friend={friend}></Friend_card>
       ))}
